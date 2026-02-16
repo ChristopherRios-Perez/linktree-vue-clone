@@ -54,7 +54,7 @@ const bio = ref({
           <span
             v-for="skill in bio.skills"
             :key="skill"
-            class="rounded-full bg-green-900/50 px-3 py-1 text-sm text-blue-300"
+            class="rounded-full bg-blue-900/50 px-3 py-1 text-sm text-blue-300"
           >
             {{ skill }}
           </span>

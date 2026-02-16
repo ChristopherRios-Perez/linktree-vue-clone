@@ -25,7 +25,8 @@ const profile = ref({
       id: 3,
       title: 'Steam',
       url: 'https://steamcommunity.com/id/BurntOutChris/',
-      icon: 'controller',
+      icon: 'gamepad',
+      description: 'See what games I am playing',
     },
   ],
 })
@@ -36,7 +37,7 @@ const profile = ref({
     <!-- Profile Header -->
     <div class="mb-8 flex flex-col items-center text-center">
       <div
-        class="mb-4 h-24 w-24 overflow-hidden rounded-full border-4 border-blue-400 shadow-lg shadow-green-500/20 sm:h-32 sm:w-32"
+        class="mb-4 h-24 w-24 overflow-hidden rounded-full border-4 border-blue-400 shadow-lg shadow-blue-500/20 sm:h-32 sm:w-32"
       >
         <img
           :src="profile.avatar"
@@ -65,7 +66,7 @@ const profile = ref({
     <!-- Navigate to Info -->
     <RouterLink
       to="/info"
-      class="mt-8 text-sm text-gray-400 underline-offset-4 transition-colors duration-200 hover:text-green-400 hover:underline"
+      class="mt-8 text-sm text-gray-400 underline-offset-4 transition-colors duration-200 hover:text-blue-400 hover:underline"
     >
       About me →
     </RouterLink>
