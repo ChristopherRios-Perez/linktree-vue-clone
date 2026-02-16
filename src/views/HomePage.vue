@@ -21,6 +21,12 @@ const profile = ref({
       icon: 'briefcase',
       description: 'Connect with me on LinkedIn',
     },
+    {
+      id: 3,
+      title: 'Steam',
+      url: 'https://steamcommunity.com/id/BurntOutChris/',
+      icon: 'controller',
+    },
   ],
 })
 </script>
