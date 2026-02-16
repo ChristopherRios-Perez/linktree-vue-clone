@@ -4,7 +4,7 @@ import LinkCard from '@/components/LinkCard.vue'
 
 const profile = ref({
   name: 'Christopher Rios-Perez',
-  slogan: 'South Texas College Student and CITP Graduate',
+  slogan: 'South Texas College Student and CITP Cybersecurity Clinic Member',
   avatar: 'https://api.dicebear.com/9.x/icons/svg?seed=Chris',
   links: [
     {
