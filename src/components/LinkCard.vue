@@ -40,7 +40,7 @@ const icons = {
   >
     <!-- Icon Container -->
     <div
-      class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-gray-700 text-green-400 transition-all duration-300 group-hover:scale-110 group-hover:bg-green-500 group-hover:text-white group-hover:shadow-xl group-hover:shadow-green-500/20"
+      class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-gray-700 text-red-400 transition-all duration-300 group-hover:scale-110 group-hover:bg-blue-500 group-hover:text-white group-hover:shadow-xl group-hover:shadow-green-500/20"
     >
       <svg
         viewBox="0 0 24 24"
@@ -53,7 +53,7 @@ const icons = {
 
     <!-- Text Content -->
     <div class="min-w-0 flex-1">
-      <h3 class="font-display truncate font-semibold text-white">{{ title }}</h3>
+      <h3 class="truncate font-display font-semibold text-white">{{ title }}</h3>
       <p class="truncate text-sm text-gray-400">
         {{ description }}
       </p>
