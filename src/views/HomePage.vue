@@ -28,6 +28,13 @@ const profile = ref({
       icon: 'gamepad',
       description: 'See what games I am playing',
     },
+    {
+      id: 4,
+      title: 'Expense Splitter App',
+      url: 'https://expense-splitter-vue.christopherr308.workers.dev/',
+      icon: 'calculator',
+      description: 'A simple app to split expenses with friends',
+    },
   ],
 })
 </script>
