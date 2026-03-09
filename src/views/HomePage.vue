@@ -35,6 +35,13 @@ const profile = ref({
       icon: 'calculator',
       description: 'A simple app to split expenses with friends',
     },
+    {
+      id: 5,
+      title: 'Anime Roulette Machine',
+      url: 'https://anime-roulette-machine.christopherr308.workers.dev/',
+      icon: 'code',
+      description: 'A fun app to randomly select an anime to watch',
+    }
   ],
 })
 </script>
